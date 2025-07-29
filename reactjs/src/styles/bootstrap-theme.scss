@@ -1,0 +1,19 @@
+// Required Bootstrap imports
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/maps";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/root";
+
+// Your customizations here
+$primary: #4e73df;
+$secondary: #858796;
+
+// Merge customizations
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary
+);
+
+// Include remaining Bootstrap
+@import "~bootstrap/scss/bootstrap";
